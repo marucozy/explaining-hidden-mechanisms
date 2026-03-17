@@ -1,18 +1,18 @@
 
-# TRIP PyTorch Example
+# Explaining Hidden Mechanisms: A Generative Model for Causal Graphs with Nonlinear Latent Factors
 
 This repository contains:
 
 - `trip.py`  
-  TRIP training and prediction code.
+  Training and prediction code for the proposed method.
 
 - `trip_synthetic.py`  
-  Synthetic graph generator based on the TRIP generative story.
+  Synthetic graph generator based on the proposed generative story.
 
 - `evaluate.py`  
   End-to-end example that:
   1. generates synthetic graphs,
-  2. trains TRIP,
+  2. trains the proposed method,
   3. evaluates prediction accuracy and subspace recovery.
 
 ## Installation
@@ -33,7 +33,7 @@ Running `python evaluate.py` performs the following steps:
 
 1. Generates a synthetic dataset of graph matrices and targets.
 2. Splits the data into train and test subsets.
-3. Trains the TRIP model on the training graphs.
+3. Trains the model on the training graphs.
 4. Predicts the target values for the test graphs.
 5. Reports:
    - MSE
